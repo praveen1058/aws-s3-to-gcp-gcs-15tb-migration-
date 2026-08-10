@@ -17,14 +17,6 @@ resource "google_storage_bucket" "migration_destination" {
     purpose     = "s3-to-gcs-migration"
   }
 
-  lifecycle_rule {
-    condition {
-      age = 365
-    }
 
-    action {
-      type = "Delete"
-    }
-  }
 }
 ```
