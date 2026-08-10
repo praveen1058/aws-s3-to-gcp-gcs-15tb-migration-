@@ -1,0 +1,22 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+
+# Secrets
+*.pem
+*.key
+*.json
+.env
+.env.*
+
+# Generated files
+*.log
+*.tmp
+
+# OS
+.DS_Store
