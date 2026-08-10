@@ -1,0 +1,7 @@
+```hcl
+aws_region        = "us-east-1"
+source_bucket_name = "example-production-source-bucket"
+
+project_name = "s3-to-gcs-migration"
+environment  = "production"
+```
